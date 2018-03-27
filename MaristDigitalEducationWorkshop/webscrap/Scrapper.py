@@ -7,7 +7,7 @@ import schedule
 
 # to import the SendEmail.py from PyBeau.utility
 from bs4 import BeautifulSoup as BS
-from gitHub.utility import SendEmail
+from gitHub.MaristDigitalEducationWorkshop.utility import SendEmail
 
 def scrapDigitalEd():
     webSite = "https://www.marist.edu/it/digitaleducation/workshops.html"
